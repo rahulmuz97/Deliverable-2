@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-05T00:09:39 IST" name="Suite" finished-at="2021-12-05T00:09:39 IST" duration-ms="97">
+    <groups>
+      <group name="functional">
+        <method signature="GroupingExample.myTestE()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" name="myTestE" class="com.java.training.GroupingExample"/>
+        <method signature="GroupingExample.myTestF()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" name="myTestF" class="com.java.training.GroupingExample"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="GroupingExample.myTestA()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" name="myTestA" class="com.java.training.GroupingExample"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupingExample.myTestC()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" name="myTestC" class="com.java.training.GroupingExample"/>
+        <method signature="GroupingExample.myTestD()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" name="myTestD" class="com.java.training.GroupingExample"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupingExample.myTestB()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" name="myTestB" class="com.java.training.GroupingExample"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-12-05T00:09:39 IST" name="Test" finished-at="2021-12-05T00:09:39 IST" duration-ms="97">
+      <class name="com.java.training.TestNg_First">
+        <test-method signature="MyFourPgm()[pri:1, instance:com.java.training.TestNg_First@4313f5bc]" started-at="2021-12-05T00:09:39 IST" name="MyFourPgm" description="first" finished-at="2021-12-05T00:09:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyFourPgm -->
+        <test-method signature="MyTwoPgm()[pri:2, instance:com.java.training.TestNg_First@4313f5bc]" started-at="2021-12-05T00:09:39 IST" name="MyTwoPgm" description="SecondRun" finished-at="2021-12-05T00:09:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTwoPgm -->
+        <test-method signature="MyThreePgm()[pri:3, instance:com.java.training.TestNg_First@4313f5bc]" started-at="2021-12-05T00:09:39 IST" name="MyThreePgm" description="firRun" finished-at="2021-12-05T00:09:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyThreePgm -->
+        <test-method signature="MyFirstPgm()[pri:4, instance:com.java.training.TestNg_First@4313f5bc]" started-at="2021-12-05T00:09:39 IST" name="MyFirstPgm" description="firstRun" finished-at="2021-12-05T00:09:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyFirstPgm -->
+      </class> <!-- com.java.training.TestNg_First -->
+      <class name="com.java.training.GroupingExample">
+        <test-method signature="myTestA()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" started-at="2021-12-05T00:09:39 IST" name="myTestA" finished-at="2021-12-05T00:09:39 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestA -->
+        <test-method signature="myTestB()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" started-at="2021-12-05T00:09:39 IST" name="myTestB" finished-at="2021-12-05T00:09:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestB -->
+        <test-method signature="myTestC()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" started-at="2021-12-05T00:09:39 IST" name="myTestC" finished-at="2021-12-05T00:09:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestC -->
+        <test-method signature="myTestD()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" started-at="2021-12-05T00:09:39 IST" name="myTestD" finished-at="2021-12-05T00:09:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestD -->
+        <test-method signature="myTestE()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" started-at="2021-12-05T00:09:39 IST" name="myTestE" finished-at="2021-12-05T00:09:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestE -->
+        <test-method signature="myTestF()[pri:0, instance:com.java.training.GroupingExample@2bbf180e]" started-at="2021-12-05T00:09:39 IST" name="myTestF" finished-at="2021-12-05T00:09:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestF -->
+      </class> <!-- com.java.training.GroupingExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
